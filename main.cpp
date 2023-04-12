@@ -14,7 +14,7 @@ int main()
 
     // tesseract api ¼³Á¤
     tesseract::TessBaseAPI* api = new tesseract::TessBaseAPI();
-    if (api->Init("D:/Program Files/tessdata", "kor")) {
+    if (api->Init("D:/Program Files/Tesseract-OCR/tessdata", "kor")) {
         return -1;
     }
 
